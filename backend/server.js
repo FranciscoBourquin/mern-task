@@ -19,9 +19,9 @@ app.use(errorHandler);
 const node = process.env.NODE_ENV;
 
 if (node === "production") {
-    app.use(express.static(path.join(__dirname, "/frontend/dist")));
+    app.use(express.static(path.join(__dirname, "../frontend/dist")));
     app.get("*", (req, res)=> {
-        res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"))
+        res.sendFile(path.resolve(__dirname, "../frontend", "dist", "index.html"))
     })
 }
 
