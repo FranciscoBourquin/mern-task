@@ -11,7 +11,7 @@
   "scripts": {
 
     "dev": "vite",
-
+    "predeploy": "npm install  @rollup/rollup-linux-x64-gnu",
     "build": "vite build",
 
     "lint": "eslint .",
