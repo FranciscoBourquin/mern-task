@@ -12,7 +12,7 @@
 
     "dev": "vite",
 
-    "predeploy": "npm install @vitejs/plugin-react @rollup/rollup-linux-x64-gnu",
+    "predeploy": "npm install @vitejs/plugin-react @rollup/rollup-linux-x64-gnu --save",
 
     "build": "vite build",
 
