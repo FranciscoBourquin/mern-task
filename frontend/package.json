@@ -12,7 +12,7 @@
 
     "dev": "vite",
 
-    "predeploy": "npm install  @rollup/rollup-linux-x64-gnu",
+    "predeploy": "npm install @vitejs/plugin-react @rollup/rollup-linux-x64-gnu",
 
     "build": "vite build",
 
@@ -53,8 +53,6 @@
     "@types/react": "^18.3.10",
 
     "@types/react-dom": "^18.3.0",
-
-    "@vitejs/plugin-react": "^4.3.2",
 
     "eslint": "^9.11.1",
 
