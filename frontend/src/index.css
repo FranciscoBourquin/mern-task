@@ -169,6 +169,17 @@ h3 {
   transform: scale(0.98);
 }
 
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
 .loadingSpinnerContainer {
   position: fixed;
   top: 0;

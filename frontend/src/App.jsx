@@ -21,6 +21,9 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <footer className='footer'>
+      &copy; All rights reserved Francisco Bourquin 2024
+      </footer>
       <ToastContainer />
     </>
   );
